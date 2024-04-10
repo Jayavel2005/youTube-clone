@@ -1,0 +1,63 @@
+p{
+    font-family: roboto;
+    margin-top: 10px;
+}
+.mosh{
+    max-width: 325px;
+    color: white;
+}
+.thumbnail-image{
+    width: 100%;
+    border-radius: 10px;
+
+}
+.thumbnail{
+    position: relative;
+    cursor: pointer;
+}
+.info{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+.profile{
+    width:40px;
+    border-radius:50px ;
+    margin-left: 2px;
+    cursor: pointer;
+    
+}
+.title{
+    margin: 0;
+    cursor: pointer;
+}
+.channel-name{
+    font-size: 14px;
+    margin-top: 10px;
+    color: rgb(170, 170, 170);
+    cursor: pointer;
+}
+.channel-name:hover{
+    color: #fff;
+}
+.views{
+    font-size: 12px;
+    margin-top: 6px;   
+    color: rgb(170, 170, 170);
+    cursor: pointer;
+}
+.contents{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 40px;
+}
+.timing{
+    color: whitesmoke;
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    right: 8px;
+    bottom: 10px;
+    font-size: 12px;
+    padding: 2px;
+}
